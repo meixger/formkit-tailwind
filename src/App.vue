@@ -50,6 +50,12 @@ async function submit() {
         label="I agree FormKit is the best form authoring framework."
       />
 
+      <FormKit
+        type="toggle"
+        name="toggle" 
+        label="I'm a FormKit Pro plugin styled with TailWind."
+      />
+
       <FormKit type="submit" :disabled="!dirty" />
 
       <pre>{{ value }}</pre>
